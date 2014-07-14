@@ -32,7 +32,7 @@ Lists the valid arguments, input formats, output formats, and other options.
 
 **Input File:** -i --infile; [-i test_iplant.json]
   * Desc: Specified Input File  (Some example test files are located in the "dist/test_inputs" folder)
-
+  * **Input File MUST be located in dist/test_inputs**
 **Output File Name:** -o --outfile; [-o test] [--outfile test]
   * Desc: Name of the output file to be written.
   * Omitting this option will print the output to the screen.
