@@ -16,6 +16,7 @@ To view help: java -jar BETS-CLI.jar -h
 
 
  ===BETS-CLI HELP ===
+ 
 Lists the valid arguments, input formats, output formats, and other options. 
 
 Input Format: -I --inputformat; [ -I iplant] [--inputformat bets]
