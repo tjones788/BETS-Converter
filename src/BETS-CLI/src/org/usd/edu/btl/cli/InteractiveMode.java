@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.usd.edu.btl.cli;
 
 import java.util.Scanner;
@@ -23,17 +18,60 @@ public class InteractiveMode {
         System.out.println("4 - Bio Link Directory");
         System.out.println("5 - Seq");
         System.out.println("6 - Bio Extract Server");
-        String inputSelect = promptSc.next();
-        System.out.println(inputSelect);
-        switch (inputSelect) {
+        String inputFormatSelect = promptSc.next();
+        System.out.println(inputFormatSelect);
+        switch (inputFormatSelect) {
             case "1":
-                System.out.println("You HAVE an Iplant File.");
+                System.out.println("You HAVE an Iplant file.");
                 break;
             case "2":
                 System.out.println("You HAVE a BETS file.");
                 break;
             case "3":
-                
+                System.out.println("You HAVE a Galaxy file.");
+                break;
+            case "4":
+                System.out.println("You HAVE a BLD file.");
+                break;
+            case "5":
+                System.out.println("You HAVE a Seq file.");
+                break;
+            case "6":
+                System.out.println("You HAVE a Bio Extract file.");
+                break;
+            default:
+                System.out.println("INVALID INPUT FORMAT");
+        }
+
+        System.out.println("What format do you want to convert to?");
+        System.out.println("1 - iPlant");
+        System.out.println("2 - BETS");
+        System.out.println("3 - Galaxy");
+        System.out.println("4 - Bio Link Directory");
+        System.out.println("5 - Seq");
+        System.out.println("6 - Bio Extract Server");
+        String outputFormatSelect = promptSc.next();
+        System.out.println(outputFormatSelect);
+
+        switch (outputFormatSelect) {
+            case "1":
+                System.out.println("You HAVE an Iplant file.");
+                break;
+            case "2":
+                System.out.println("You HAVE a BETS file.");
+                break;
+            case "3":
+                System.out.println("You HAVE a Galaxy file.");
+                break;
+            case "4":
+                System.out.println("You HAVE a BLD file.");
+                break;
+            case "5":
+                System.out.println("You HAVE a Seq file.");
+                break;
+            case "6":
+                System.out.println("You HAVE a Bio Extract file.");
+                break;
             default:
                 System.out.println("INVALID INPUT FORMAT");
         }

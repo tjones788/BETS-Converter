@@ -392,21 +392,21 @@ public class Conversion {
             System.out.println(e.getMessage());
         }
         // RUN GALAXY TO BETS CONVERSION
-//        BETSV1 betsOutput = GalaxyConverter.toBETS(myTool);
-//        try {
-//            ObjectMapper mapper = new ObjectMapper();
-//            System.out.println("************************************************\n"
-//                    + "*********PRINTING OUT CONVERSION************\n"
-//                    + "----------Galaxy --> Bets--------------\n"
-//                    + "************************************************\n");
-//            //print objects as Json using jackson
-//            ObjectWriter ow = mapper.writer().withDefaultPrettyPrinter();
-//            String betsJson = ow.writeValueAsString(betsOutput); //write Json as String
-//            System.out.println("=== BLD TO BETS JSON === \n"
-//                    + betsJson);
-//        } catch (Exception e) {
-//            System.out.println(e.getMessage());
-//        }
+        BETSV1 betsOutput = GalaxyConverter.toBETS(myTool);
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            System.out.println("************************************************\n"
+                    + "*********PRINTING OUT CONVERSION************\n"
+                    + "----------Galaxy --> Bets--------------\n"
+                    + "************************************************\n");
+            //print objects as Json using jackson
+            ObjectWriter ow = mapper.writer().withDefaultPrettyPrinter();
+            String betsJson = ow.writeValueAsString(betsOutput); //write Json as String
+            System.out.println("=== BLD TO BETS JSON === \n"
+                    + betsJson);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
     }
     /**
