@@ -17,7 +17,7 @@ Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test_iplant.json -o betsOu
 
 To view help: java -jar BETS-CLI.jar -h
 
-
+---
 #BETS-CLI HELP
  
 Lists the valid arguments, input formats, output formats, and other options. 
@@ -44,3 +44,8 @@ Interactive Prompts: -p --prompt
   * Desc: Starts interactive mode, where user is prompted for arguments.
 
 Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
+
+---
+Test
+--- |
+tests |
