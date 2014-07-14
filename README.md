@@ -22,27 +22,27 @@ To view help: java -jar BETS-CLI.jar -h
  
 Lists the valid arguments, input formats, output formats, and other options. 
 
-Input Format: -I --inputformat; [ -I iplant] [--inputformat bets]
+**Input Format:** -I --inputformat; [ -I iplant] [--inputformat bets]
   * Desc: Format of Input File
   * Options: iplant, bets, galaxy, seq, bld, bioextract
 
-Ouput Format: -O --outputformat; [-O galaxy] [--outputformat bets]
+**Output Format:** -O --outputformat; [-O galaxy] [--outputformat bets]
   * Desc: Format to Convert to
   * Options: iplant, bets, galaxy, bioextract, seq, bld
 
-Input File: -i --infile; [-i test_iplant.json]
+**Input File:** -i --infile; [-i test_iplant.json]
   * Desc: Specified Input File  (Some example test files are located in the "dist/test_inputs" folder)
 
-Output File Name: -o --outfile; [-o test] [--outfile test]
+**Output File Name:** -o --outfile; [-o test] [--outfile test]
   * Desc: Name of the output file to be written.
   * Omitting this option will print the output to the screen.
 
-Help Menu: -h --help
+**Help Menu:** -h --help
   * Desc: Print Help Menu
 
-Interactive Prompts: -p --prompt
+**Interactive Prompts:** -p --prompt
   * Desc: Starts interactive mode, where user is prompted for arguments.
 
-Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
+**Example:** java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
 
 ---
