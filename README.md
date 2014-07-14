@@ -1,13 +1,13 @@
-BETS-Command Line Interface README
-==============
-This command line tool is designed to convert bioinformatics tool specifications from various platforms to BETS(Bioinformatics Elaborated Tool Specifiation)
-This tool allows a user to specify a valid .json or .xml input file and easily convert it to a specific tool specification and write to a file or print to the screen..
+#BETS-Command Line Interface README
 
-#To run the project from the command line, go to the dist folder and
-type the following:
+This command line tool is designed to convert bioinformatics tool specifications from various platforms to BETS(Bioinformatics Elaborated Tool Specifiation)
+This tool allows a user to specify a valid .json or .xml input file and easily convert it to a specific tool specification and write to a file or print to the screen.
+
+**To run the project from the command line, go to the dist folder and
+type the following:**
 java -jar "BETS-CLI.jar" 
 
-#In Windows:
+**In Windows:**
 Shift + Right Click on dist folder --> "Open command window here"
 Type: java -jar BETS-CLI.jar *arguments go here*
 
@@ -15,7 +15,7 @@ Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test_iplant.json -o betsOu
 To view help: java -jar BETS-CLI.jar -h
 
 
-#BETS-CLI HELP ===
+#BETS-CLI HELP
  
 Lists the valid arguments, input formats, output formats, and other options. 
 
@@ -39,7 +39,7 @@ Help Menu: -h --help
 
 Interactive Prompts: -p --prompt
   *Desc: Starts interactive mode, where user is prompted for arguments.
---------------------------
+
 Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
 
 
