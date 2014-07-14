@@ -11,7 +11,7 @@ java -jar "BETS-CLI.jar"
 **In Windows:**
 * Shift + Right Click on dist folder --> "Open command window here"
 
-* Type: java -jar BETS-CLI.jar *arguments go here*
+* Type: java -jar BETS-CLI.jar \*arguments go here\*
 
 **Example:** java -jar BETS-CLI.jar  -I iplant -O bets -i test_iplant.json -o betsOutput
 
