@@ -3,15 +3,6 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="BETS-Converter"/>
-        <group name="BETS-CLI">
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/betsconverter/BETSV1/BETSV1.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/betsconverter/BETSV1/Constraint.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/converters/runtests/RunBetsTest.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/converters/runtests/RunBLDTest.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/betsconverter/iPlantV1/Input.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/betsconverter/iPlantV1/IplantV1.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/converters/runtests/RunBioExtTest.java</file>
-            <file>file:/C:/Users/Tyler_000/Desktop/BETS-Working/BetsConverterV1/src/org/usd/edu/btl/converters/runtests/RunIplantTest.java</file>
-        </group>
+        <group name="BETS-CLI"/>
     </open-files>
 </project-private>
