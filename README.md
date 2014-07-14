@@ -15,7 +15,7 @@ Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test_iplant.json -o betsOu
 To view help: java -jar BETS-CLI.jar -h
 
 
- BETS-CLI HELP 
+ ===BETS-CLI HELP ===
 Lists the valid arguments, input formats, output formats, and other options. 
 
 Input Format: -I --inputformat; [ -I iplant] [--inputformat bets]
