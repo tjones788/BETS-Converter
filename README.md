@@ -46,6 +46,3 @@ Interactive Prompts: -p --prompt
 Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
 
 ---
-Test
---- |
-tests |
