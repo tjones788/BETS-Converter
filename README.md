@@ -41,29 +41,3 @@ Interactive Prompts: -p --prompt
   * Desc: Starts interactive mode, where user is prompted for arguments.
 
 Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
-
-
-
-Valid Conversions:
-**FROM**	**To**
-BETS		iPlant 
-
-		Galaxy
-		
-		Seq Answers
-		
-		BLD
-		
-		Bio-Extract
-		
-iplant		BETS
-
-Galaxy		BETS
-
-Seq 		BETS
-
-BLD			BETS
-
-BioExt		BETS
-
-
