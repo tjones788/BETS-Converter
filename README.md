@@ -45,14 +45,25 @@ Example: java -jar BETS-CLI.jar  -I iplant -O bets -i test.json -o output1
 
 
 Valid Conversions:
-FROM		To
+**FROM**	**To**
 BETS		iPlant 
-			Galaxy
-			Seq Answers
-			BLD
-			Bio-Extract
+
+		Galaxy
+		
+		Seq Answers
+		
+		BLD
+		
+		Bio-Extract
+		
 iplant		BETS
+
 Galaxy		BETS
+
 Seq 		BETS
+
 BLD			BETS
+
 BioExt		BETS
+
+
