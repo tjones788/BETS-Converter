@@ -1,6 +1,7 @@
 package org.usd.edu.btl.cli;
 
 import java.util.Scanner;
+import static org.usd.edu.btl.cli.runCLI.performConversion;
 
 /**
  *
@@ -8,9 +9,15 @@ import java.util.Scanner;
  */
 public class InteractiveMode {
 
+    private static String inputFormat = null;
+    private static String outputFormat = null;
+   // private static String inputFile = null;
+    private static String outputFile = null;
+
     public static void userPrompts() {
         System.out.println("Starting Interactive Mode");
         Scanner promptSc = new Scanner(System.in);
+
         System.out.println("What format are you converting from?");
         System.out.println("1 - iPlant");
         System.out.println("2 - BETS");
@@ -19,10 +26,11 @@ public class InteractiveMode {
         System.out.println("5 - Seq");
         System.out.println("6 - Bio Extract Server");
         String inputFormatSelect = promptSc.next();
-        System.out.println(inputFormatSelect);
+
         switch (inputFormatSelect) {
             case "1":
                 System.out.println("You HAVE an Iplant file.");
+                inputFormat = "iplant";
                 break;
             case "2":
                 System.out.println("You HAVE a BETS file.");
@@ -42,7 +50,9 @@ public class InteractiveMode {
             default:
                 System.out.println("INVALID INPUT FORMAT");
         }
-
+        /**
+         * Get the Output Format
+         */
         System.out.println("What format do you want to convert to?");
         System.out.println("1 - iPlant");
         System.out.println("2 - BETS");
@@ -51,7 +61,6 @@ public class InteractiveMode {
         System.out.println("5 - Seq");
         System.out.println("6 - Bio Extract Server");
         String outputFormatSelect = promptSc.next();
-        System.out.println(outputFormatSelect);
 
         switch (outputFormatSelect) {
             case "1":
@@ -75,5 +84,16 @@ public class InteractiveMode {
             default:
                 System.out.println("INVALID INPUT FORMAT");
         }
+        
+        System.out.println("Please type the full input file name.");
+        String inputFile = promptSc.next();
+        System.out.println(inputFile);
+       
+        System.out.println("Please type your desired output file name.");
+        String outputFile = promptSc.next();
+        System.out.println(outputFile);
+        
+        promptSc.close();
+        performConversion(inputFormat, outputFormat, outputFile);
     }
 }
